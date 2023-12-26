@@ -1,0 +1,33 @@
+
+* {
+  font-family: "Anton", sans-serif;
+}
+
+body{
+  background: #452a00;
+}
+.comic-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 30%; 
+  box-sizing: border-box; 
+  display: inline-block; 
+}
+
+/* Clearfix untuk menangani float */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container{
+  background-color: rgb(59, 59, 59);
+  background-size: cover;
+}
+.container h1 {
+  font-family: "Anton", sans-serif;
+  background-color: #ff1500;
+  color: #ffffff;
+  background-size: auto;
+}
